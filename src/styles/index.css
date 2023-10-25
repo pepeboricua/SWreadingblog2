@@ -1,3 +1,41 @@
-/* 
-    General Styles
-*/
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-info{
+    width: 80%;
+    text-align: center;
+}
+
+.about-info-top{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.about-info-bottom{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 1px solid black;
+}
+
+.card-container{
+    width: 80%;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.card{
+    display: inline-block;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
